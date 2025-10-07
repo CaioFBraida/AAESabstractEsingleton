@@ -24,6 +24,7 @@ public class ContaTest {
         assertEquals("Cartão de débito", conta.emitirCartao());
     }
 
+
     @Test
     void deveEmitirExtratoPoupanca() {
         FabricaAbstrata fabrica = FabricaPoupanca.getInstance();
